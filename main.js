@@ -23,7 +23,7 @@ function sendEmail(){
     Email.send({
     Host : "smtp.gmail.com",
         Username : "saurabhc2922@gmail.com",
-        Password : "7083744945",
+        Password : "Password",
         To : "saurabhc2922@gmail.com",
         From : document.getElementById("email").value,
         Subject : "New Contact Form Enqury",
