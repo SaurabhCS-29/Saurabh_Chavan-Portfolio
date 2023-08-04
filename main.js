@@ -22,13 +22,16 @@ navBar.forEach(function(a){
 function sendEmail(){
     Email.send({
     Host : "smtp.gmail.com",
-    Username : "username",
-    Password : "password",
-    To : 'them@website.com',
-    From : "you@isp.com",
-    Subject : "This is the subject",
-    Body : "And this is the body"
+        Username : "saurabhc2922@gmail.com",
+        Password : "7083744945",
+        To : "saurabhc2922@gmail.com",
+        From : document.getElementById("email").value,
+        Subject : "New Contact Form Enqury",
+        Body : "Name:"+document.getElementById("name").value
+        +"<br>"+ "Email:"+document.getElementById("email").value
+        +"<br>"+ "Phone no.:"+document.getElementById("number").value
+        +"<br>"+ "massage:"+document.getElementById("massage").value
 }).then(
-  message => alert(message)
+  message => alert("Massage Sent Succesfully.")
 );
 }
