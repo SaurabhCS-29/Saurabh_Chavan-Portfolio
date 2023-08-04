@@ -21,7 +21,7 @@ navBar.forEach(function(a){
 // Contac From send Email 
 function sendEmail(){
     Email.send({
-    Host : "smtp.elasticemail.com",
+    Host : "smtp.gmail.com",
     Username : "username",
     Password : "password",
     To : 'them@website.com',
