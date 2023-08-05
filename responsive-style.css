@@ -75,6 +75,9 @@
     }
    
     /*              About               */
+    .about_wrapper h6{
+        font-size: 13px;
+    }
     .about_wrapper ul.nav-pills{
         width: 100%;
         margin: auto;
