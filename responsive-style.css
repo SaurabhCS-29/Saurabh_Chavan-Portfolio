@@ -40,7 +40,7 @@
 
 
 
-@media (max-width:767px){
+@media (max-width:768px){
 
     h1{
         font-size: 40px;
@@ -52,6 +52,26 @@
     p{
         font-size: 13px;
         line-height: 24px;
+    }
+
+    /*          Navbar              */
+
+    .navbar-brand img{
+        width: 70px;
+        height: auto;
+    }
+
+     /*          Banner           */
+     .banner_wrapper{
+        padding-top: 300px;
+    }
+     .banner_wrapper h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .banner_wrapper h6{
+        font-size: 16px;
+        line-height: 20px;
     }
    
     /*              About               */
